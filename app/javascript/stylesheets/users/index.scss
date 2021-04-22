@@ -136,6 +136,16 @@
   color: #cdd6dd;
 }
 
+.no-user {
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  &.is-active {
+    display: flex;
+  }
+}
+
 @media (min-width: 415px) {
   .user-index-page {
     border: 1px solid rgba(0, 0, 0, 0.125);

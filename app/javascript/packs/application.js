@@ -1,4 +1,5 @@
 import 'bootstrap';
+import "hammerjs";
 import '../stylesheets/application';
 import '@fortawesome/fontawesome-free/js/all';
 
@@ -16,3 +17,4 @@ Rails.start()
 Turbolinks.start()
 ActiveStorage.start()
 require("src/profile_image_upload");
+require("src/swipe");
