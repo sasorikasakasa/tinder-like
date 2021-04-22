@@ -15,3 +15,4 @@ import "channels"
 Rails.start()
 Turbolinks.start()
 ActiveStorage.start()
+require("src/profile_image_upload");
